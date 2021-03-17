@@ -1,0 +1,30 @@
+  .title {
+    text-align:center;
+    text-decoration:underline;
+    border-bottom:2px solid black;
+    padding: 50px;
+    margin:0;
+  }
+  .grid {
+    border-right:2px solid black;
+    margin:0;
+    margin-left:20px;
+    padding:20px;
+  }
+  .description{
+    margin-left:30px;
+    margin-right:30px;
+    margin-bottom:10px;
+  }
+  #article {
+    display:grid;
+    grid-template-columns:0.5fr 4.5fr;
+    border-bottom:2px solid black;
+  }
+  @media(max-width:800px){
+    #article{
+      display:block;
+      border-left:2px solid black;
+      border-right:2px solid black;
+    }
+  }
